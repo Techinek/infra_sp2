@@ -9,6 +9,6 @@ class TestReadme:
         try:
             with open(f'{os.path.join(root_dir, "README.md")}', 'r',
                       encoding='utf-8') as f:
-                readme = f.read()
+                f.read()
         except FileNotFoundError:
             assert False, 'Проверьте, что добавили файл README.md'

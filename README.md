@@ -18,3 +18,5 @@ REST API для сервиса YaMDb — база отзывов о различ
 Чтобы загрузить список сущностей в БД:
 
 ```docker-compose exec web python manage.py loaddata fixtures.json```
+
+**Автор**: [Кусков Андрей](https://github.com/Techinek).
